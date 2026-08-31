@@ -9,3 +9,7 @@ El ciclo evalúa una condición al principio de cada paso. Si es verdadera, las 
 # ALGORITMOS REPETIR
 
 El comando Repetir (también conocido como Repetir-Hasta Que) en PSeInt es una estructura de control repetitiva que ejecuta un bloque de instrucciones primero y luego evalúa una condición al final.Según la documentación de PSeInt en SourceForge, el ciclo continuará repitiéndose mientras la condición sea falsa. El bucle se detiene inmediatamente en el momento en que la condición se vuelve verdadera.
+
+# Ejemplos
+![alt text](6.jpeg)
+![alt text](7.jpeg)
