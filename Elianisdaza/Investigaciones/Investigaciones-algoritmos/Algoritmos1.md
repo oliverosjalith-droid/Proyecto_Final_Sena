@@ -50,3 +50,26 @@ Inicio
     Sino
         Escribir "El mayor es NúmeroC"
 Fin
+
+
+
+Algoritmo Numerosprimos
+	Escribir " digite numero "
+	leer num
+	para j <- 2 Hasta num Hacer 
+		i = 1 
+		d = 0 
+	Mientras i <= j
+		si ( j mod i = 0 )
+			d = d + 1
+		FinSi
+		i = i + 1
+	FinMientras
+	si d <= 2 Entonces
+		primo = primo + 1
+		Escribir j
+	FinSi
+FinPara
+Escribir " hay " primo " primos "
+	
+FinAlgoritmo
