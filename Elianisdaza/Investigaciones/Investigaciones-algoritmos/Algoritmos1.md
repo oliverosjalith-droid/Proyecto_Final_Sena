@@ -74,3 +74,6 @@ Escribir " hay " primo " primos "
 	
 FinAlgoritmo
 
+![alt text](1.jpeg)
+![alt text](2.jpeg)
+![alt text](5.jpeg)
