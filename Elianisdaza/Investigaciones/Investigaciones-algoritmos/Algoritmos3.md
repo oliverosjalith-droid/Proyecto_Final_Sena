@@ -13,3 +13,4 @@ El comando Repetir (también conocido como Repetir-Hasta Que) en PSeInt es una e
 # Ejemplos
 ![alt text](6.jpeg)
 ![alt text](7.jpeg)
+![alt text](10.jpeg)
