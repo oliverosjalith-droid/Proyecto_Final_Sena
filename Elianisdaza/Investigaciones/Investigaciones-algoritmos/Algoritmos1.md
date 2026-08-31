@@ -36,3 +36,17 @@ Antes de programar en la computadora, los desarrolladores usan tres herramientas
 
 
 3. Diagramas de Flujo: Representaciones gráficas que usan figuras geométricas (óvalos para el inicio/fin, rectángulos para procesos, rombos para decisiones).
+
+## Ejercicios dados en clase 
+
+
+Inicio
+
+    Leer NúmeroA, NúmeroB, NúmeroC
+    Si NúmeroA > NúmeroB y NúmeroA > NúmeroC Entonces
+        Escribir "El mayor es NúmeroA"
+    Sino, Si NúmeroB > NúmeroA y NúmeroB > NúmeroC Entonces
+        Escribir "El mayor es NúmeroB"
+    Sino
+        Escribir "El mayor es NúmeroC"
+Fin
