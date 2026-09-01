@@ -12,3 +12,21 @@ En PSeInt los subíndices (posiciones) de los arreglos empiezan desde 1.
 Ejemplo no. 1
 
 Crear un arreglo llamado numeros que almacene los siguientes datos: 20, 14, 8, 0, 5, 19, 4,9,34, y 23.
+
+Algoritmo ejemplo
+
+	definir M como entero
+	dimension vNumero[10] 
+	
+	Limpiar Pantalla
+	
+	vNumero[1]<-20
+	vNumero[2]<-14
+	vNumero[3]<-8
+	vNumero[4]<-0
+	vNumero[5]<-5
+	vNumero[6]<-19
+	vNumero[7]<-4
+	vNumero[8]<-9
+	vNumero[9]<-34
+	vNumero[10]<-23
