@@ -30,3 +30,12 @@ Algoritmo ejemplo
 	vNumero[8]<-9
 	vNumero[9]<-34
 	vNumero[10]<-23
+
+## ¿Qué es un Vector? 
+ Es un arreglo de 1 Dimension. Guarda una lista.
+ * Ejemplo: numeros[10]
+
+
+## ¿Qué es una Matriz?
+Es un arreglo de 2 Dimensiones. Guarda tabla con filas y columnas.
+* Ejemplo: matriz[3,3].
