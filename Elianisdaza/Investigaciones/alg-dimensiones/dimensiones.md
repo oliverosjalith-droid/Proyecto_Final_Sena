@@ -39,3 +39,19 @@ Algoritmo ejemplo
 ## ¿Qué es una Matriz?
 Es un arreglo de 2 Dimensiones. Guarda tabla con filas y columnas.
 * Ejemplo: matriz[3,3].
+
+
+# Tipos de operaciones comunes :
+- Llenar el vector
+- Mostrar el Vector
+- Mostrar el revés (como tu código)
+- Sumar elementos
+- Buscar el mayor/menor
+
+
+## Ejemplo de codigo :
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+![alt text](image-4.png)
