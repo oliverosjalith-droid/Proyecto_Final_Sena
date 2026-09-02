@@ -205,3 +205,45 @@ Algoritmo OrdenamientoPorInsercion
     FinPara
 FinAlgoritmo
 ---
+# 4. Quicksort
+
+## ¿Qué es?
+
+**Quicksort** es un algoritmo de ordenamiento que utiliza la estrategia de **dividir y conquistar**.
+
+Primero selecciona un elemento llamado **pivote**. Después organiza los demás elementos colocando a un lado los valores menores que el pivote y al otro lado los valores mayores.
+
+Luego repite el mismo proceso con las partes obtenidas hasta ordenar todo el vector.
+
+## ¿Para qué sirve?
+
+Sirve para ordenar grandes cantidades de datos de manera eficiente y es uno de los algoritmos de ordenamiento más conocidos.
+
+Ejemplo:
+
+```text
+Vector:
+8, 3, 5, 1, 9, 2
+
+Pivote: 5
+
+Menores: 3, 1, 2
+Pivote:   5
+Mayores:  8, 9
+
+Resultado:
+1, 2, 3, 5, 8, 9
+```
+
+## Ventajas
+
+* Generalmente es muy rápido.
+* Su caso promedio tiene una complejidad de `O(n log n)`.
+* Puede ordenar grandes cantidades de datos eficientemente.
+* Utiliza la estrategia de dividir y conquistar.
+
+## Desventajas
+
+* Si se selecciona un pivote inadecuado, puede llegar a `O(n²)`.
+* Su implementación puede ser más compleja que burbuja, selección o inserción.
+* No es un algoritmo estable en su implementación habitual.
