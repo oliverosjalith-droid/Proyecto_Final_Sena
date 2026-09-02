@@ -247,3 +247,47 @@ Resultado:
 * Si se selecciona un pivote inadecuado, puede llegar a `O(n²)`.
 * Su implementación puede ser más compleja que burbuja, selección o inserción.
 * No es un algoritmo estable en su implementación habitual.
+## Ejemplo
+Algoritmo Quicksort
+
+    numeros <- [8, 3, 5, 1, 9, 2]
+
+    Quicksort(numeros, 1, 6)
+
+FinAlgoritmo
+
+
+SubProceso Quicksort(numeros, inicio, fin)
+
+    Si inicio < fin Entonces
+
+        pivote <- numeros[fin]
+        i <- inicio - 1
+
+        Para j <- inicio Hasta fin-1 Hacer
+
+            Si numeros[j] <= pivote Entonces
+
+                i <- i + 1
+
+                aux <- numeros[i]
+                numeros[i] <- numeros[j]
+                numeros[j] <- aux
+
+            FinSi
+
+        FinPara
+
+        aux <- numeros[i+1]
+        numeros[i+1] <- numeros[fin]
+        numeros[fin] <- aux
+
+        posicion <- i + 1
+
+        Quicksort(numeros, inicio, posicion-1)
+        Quicksort(numeros, posicion+1, fin)
+
+    FinSi
+
+FinSubProceso
+---
