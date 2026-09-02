@@ -352,3 +352,105 @@ Vector ordenado:
 ## Resumen
 
 El **Cocktail Sort** es una variante del método de Burbuja que realiza recorridos en ambas direcciones. Primero mueve los elementos grandes hacia el final y después los elementos pequeños hacia el comienzo. Aunque puede mejorar el comportamiento de Bubble Sort en algunos casos, sigue teniendo una complejidad de `O(n²)` en el caso promedio y en el peor caso.
+---
+Algoritmo BucketSort
+
+    Definir numeros Como Entero
+    Dimension numeros[8]
+
+    numeros[1] <- 42
+    numeros[2] <- 15
+    numeros[3] <- 78
+    numeros[4] <- 23
+    numeros[5] <- 91
+    numeros[6] <- 35
+    numeros[7] <- 64
+    numeros[8] <- 10
+
+    Definir cubetas Como Entero
+    Dimension cubetas[10,8]
+
+    Definir cantidad Como Entero
+    Dimension cantidad[10]
+
+    // Inicializar las cantidades de las cubetas
+
+    Para i <- 1 Hasta 10 Hacer
+        cantidad[i] <- 0
+    FinPara
+
+    // Distribuir los números en las cubetas
+
+    Para i <- 1 Hasta 8 Hacer
+
+        posicion <- Trunc(numeros[i] / 10) + 1
+
+        cantidad[posicion] <- cantidad[posicion] + 1
+
+        cubetas[posicion, cantidad[posicion]] <- numeros[i]
+
+    FinPara
+
+    // Ordenar cada cubeta
+
+    Para i <- 1 Hasta 10 Hacer
+
+        Para j <- 1 Hasta cantidad[i] - 1 Hacer
+
+            Para k <- j + 1 Hasta cantidad[i] Hacer
+
+                Si cubetas[i,j] > cubetas[i,k] Entonces
+
+                    aux <- cubetas[i,j]
+                    cubetas[i,j] <- cubetas[i,k]
+                    cubetas[i,k] <- aux
+
+                FinSi
+
+            FinPara
+
+        FinPara
+
+    FinPara
+
+    // Unir las cubetas
+
+    posicion <- 1
+
+    Para i <- 1 Hasta 10 Hacer
+
+        Para j <- 1 Hasta cantidad[i] Hacer
+
+            numeros[posicion] <- cubetas[i,j]
+            posicion <- posicion + 1
+
+        FinPara
+
+    FinPara
+
+    // Mostrar resultado
+
+    Para i <- 1 Hasta 8 Hacer
+        Escribir numeros[i]
+    FinPara
+
+FinAlgoritmo
+```
+
+## Ejemplo del resultado
+
+```text
+Vector inicial:
+
+42, 15, 78, 23, 91, 35, 64, 10
+
+Vector ordenado:
+
+10, 15, 23, 35, 42, 64, 78, 91
+```
+
+## Resumen
+
+**Bucket Sort** organiza los datos distribuyéndolos primero en diferentes cubetas según su valor. Después ordena cada cubeta y finalmente las une.
+
+Es especialmente útil cuando los datos tienen una distribución relativamente uniforme y se conoce el rango de valores.
