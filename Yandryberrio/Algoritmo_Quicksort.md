@@ -44,3 +44,17 @@ Simplifiquemos el ejemplo anterior:
 -   Los números `7`y `2`se intercambian. Ahora, el pivote se comparará con el siguiente elemento, `1`que es menor que `4`.
 -   Así que, una vez más, `7`se intercambiará con `1`.
 -   El procedimiento continúa hasta que se alcanza el penúltimo elemento y, al final, el elemento pivote se reemplaza con el segundo puntero. Aquí, el número `4`(pivote) se reemplazará con el número `6`.
+
+![Continuó la reorganización de los elementos.](https://cdn.builtin.com/cdn-cgi/image/f=auto/sites/www.builtin.com/files/styles/ckeditor_optimize/public/inline-images/4_quicksort.jpg)
+
+### 3. Dividir los subconjuntos
+
+Una vez que hayamos particionado el arreglo, podemos dividir este problema en dos subproblemas. Primero, ordenamos el segmento del arreglo a la izquierda del pivote, y luego ordenamos el segmento del arreglo a la derecha del pivote.
+
+![Ordenar los subconjuntos](https://cdn.builtin.com/cdn-cgi/image/f=auto/sites/www.builtin.com/files/styles/ckeditor_optimize/public/inline-images/6_quicksort.jpg)
+
+-   Del mismo modo que reorganizamos los elementos en el paso dos, seleccionaremos un elemento pivote para cada una de las subpartes izquierda y derecha individualmente.
+-   Ahora, reorganizaremos la sublista de manera que todos los elementos sean menores que el punto de pivote, que se encuentra hacia la izquierda. Por ejemplo, el elemento `3`es el mayor de los tres, lo que satisface la condición. Por lo tanto, el elemento `3`se encuentra en su posición ordenada.
+-   De manera similar, volveremos a trabajar en la sublista y ordenaremos los elementos `2`. `1`Detendremos el proceso cuando obtengamos un solo elemento al final.
+-   Repita el mismo proceso para la sublista del lado derecho. Los subconjuntos se subdividen hasta que cada subconjunto consta de un solo elemento **.**
+-   Ahora, el array está ordenado.
