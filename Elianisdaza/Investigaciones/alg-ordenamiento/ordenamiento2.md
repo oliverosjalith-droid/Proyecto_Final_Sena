@@ -83,3 +83,94 @@ La idea principal del algoritmo es:
 3. Mezclar las dos mitades ordenadas.
 ```
 ---
+# 6. Shell Sort
+
+## ¿Qué es?
+
+**Shell Sort** es una mejora del método de inserción.
+
+En lugar de comparar solamente elementos que están juntos, compara elementos que están separados por una determinada distancia llamada **intervalo** o **gap**.
+
+El intervalo comienza siendo grande y se va reduciendo hasta llegar a `1`. Cuando el intervalo es `1`, se realiza una especie de ordenamiento por inserción sobre todo el vector.
+
+## ¿Para qué sirve?
+
+Sirve para ordenar datos de manera más eficiente que el método de inserción cuando se trabaja con conjuntos de datos más grandes.
+
+Es útil porque permite mover rápidamente elementos que están muy alejados de su posición correcta.
+
+Ejemplo:
+
+```text
+Vector:
+
+8, 5, 3, 7, 6, 2, 1, 4
+
+Se utiliza un intervalo:
+
+4
+
+Después:
+
+2
+
+Finalmente:
+
+1
+
+Resultado:
+
+1, 2, 3, 4, 5, 6, 7, 8
+```
+
+## Ventajas
+
+* Es más rápido que la inserción en muchos casos.
+* No necesita grandes cantidades de memoria adicional.
+* Puede ser útil cuando los elementos que deben intercambiarse están muy separados.
+* Utiliza memoria adicional constante `O(1)`.
+
+## Desventajas
+
+* No es estable.
+* Su rendimiento depende de la secuencia de intervalos utilizada.
+* Su peor caso puede llegar a `O(n²)`.
+* Es más difícil de comprender que los métodos básicos como burbuja o selección.
+
+## Ejemplo de algoritmo
+
+```text
+Algoritmo ShellSort
+
+    numeros <- [8, 5, 3, 7, 6, 2, 1, 4]
+
+    n <- 8
+    intervalo <- Trunc(n / 2)
+
+    Mientras intervalo > 0 Hacer
+
+        Para i <- intervalo + 1 Hasta n Hacer
+
+            actual <- numeros[i]
+            j <- i
+
+            Mientras j > intervalo Y numeros[j-intervalo] > actual Hacer
+
+                numeros[j] <- numeros[j-intervalo]
+                j <- j - intervalo
+
+            FinMientras
+
+            numeros[j] <- actual
+
+        FinPara
+
+        intervalo <- Trunc(intervalo / 2)
+
+    FinMientras
+
+    Para i <- 1 Hasta n Hacer
+        Escribir numeros[i]
+    FinPara
+FinAlgoritmo
+```
