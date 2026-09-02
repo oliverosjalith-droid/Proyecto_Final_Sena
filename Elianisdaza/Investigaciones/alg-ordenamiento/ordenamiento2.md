@@ -174,3 +174,181 @@ Algoritmo ShellSort
     FinPara
 FinAlgoritmo
 ```
+---
+# 7. Ordenamiento Cocktail (Cocktail Sort)
+
+## ¿Qué es?
+
+El **Cocktail Sort**, también llamado **Cocktail Shaker Sort** u **ordenamiento de burbuja bidireccional**, es una variación del método de **Burbuja**.
+
+La diferencia principal es que el algoritmo recorre el vector en **las dos direcciones**. Primero recorre de izquierda a derecha y lleva el elemento más grande hacia el final. Después recorre de derecha a izquierda y lleva el elemento más pequeño hacia el comienzo.
+
+Este proceso se repite hasta que todos los elementos quedan ordenados.
+
+## ¿Para qué sirve?
+
+Sirve para ordenar elementos de un vector o lista, generalmente de menor a mayor.
+
+Por ejemplo:
+
+```text
+Antes:
+
+5, 1, 4, 2, 8, 3
+
+Después:
+
+1, 2, 3, 4, 5, 8
+```
+
+Una de sus características principales es que puede mover elementos grandes hacia el final y elementos pequeños hacia el inicio en cada ciclo.
+
+## ¿Cómo funciona?
+
+Supongamos que tenemos:
+
+```text
+5, 1, 4, 2, 8, 3
+```
+
+### Primera pasada → izquierda a derecha
+
+Se comparan los elementos vecinos.
+
+El número más grande va avanzando hacia el final:
+
+```text
+5, 1, 4, 2, 8, 3
+                ↑
+```
+
+Después de esta pasada, el `8` queda en su posición correcta:
+
+```text
+5, 1, 4, 2, 3, 8
+```
+
+### Segunda pasada → derecha a izquierda
+
+Ahora el algoritmo cambia de dirección.
+
+El número más pequeño va avanzando hacia el comienzo:
+
+```text
+5, 1, 4, 2, 3, 8
+↑
+```
+
+Después se continúa alternando las dos direcciones hasta ordenar todos los elementos:
+
+```text
+1, 2, 3, 4, 5, 8
+```
+
+## Ventajas
+
+* Es sencillo de comprender.
+* Es una mejora del método de Burbuja.
+* Trabaja en las dos direcciones.
+* Puede ser útil cuando existen elementos pequeños cerca del final o elementos grandes cerca del comienzo.
+* No necesita memoria adicional importante.
+
+## Desventajas
+
+* Sigue siendo poco eficiente para grandes cantidades de datos.
+* Su complejidad promedio y peor caso es `O(n²)`.
+* Puede realizar muchas comparaciones e intercambios.
+* Existen otros algoritmos más eficientes para grandes cantidades de datos.
+
+## Complejidad
+
+| Caso              | Complejidad |
+| ----------------- | ----------- |
+| Mejor caso        | O(n)        |
+| Caso promedio     | O(n²)       |
+| Peor caso         | O(n²)       |
+| Memoria adicional | O(1)        |
+
+## Ejemplo de algoritmo
+
+```text
+Algoritmo CocktailSort
+
+    Definir numeros Como Entero
+    Dimension numeros[6]
+
+    numeros[1] <- 5
+    numeros[2] <- 1
+    numeros[3] <- 4
+    numeros[4] <- 2
+    numeros[5] <- 8
+    numeros[6] <- 3
+
+    inicio <- 1
+    fin <- 6
+    cambiado <- Verdadero
+
+    Mientras cambiado = Verdadero Hacer
+
+        cambiado <- Falso
+
+        // Recorrido de izquierda a derecha
+
+        Para i <- inicio Hasta fin - 1 Hacer
+
+            Si numeros[i] > numeros[i+1] Entonces
+
+                aux <- numeros[i]
+                numeros[i] <- numeros[i+1]
+                numeros[i+1] <- aux
+
+                cambiado <- Verdadero
+
+            FinSi
+
+        FinPara
+
+        fin <- fin - 1
+
+        // Recorrido de derecha a izquierda
+
+        Para i <- fin Hasta inicio + 1 Con Paso -1 Hacer
+
+            Si numeros[i-1] > numeros[i] Entonces
+
+                aux <- numeros[i-1]
+                numeros[i-1] <- numeros[i]
+                numeros[i] <- aux
+
+                cambiado <- Verdadero
+
+            FinSi
+
+        FinPara
+
+        inicio <- inicio + 1
+
+    FinMientras
+
+    Para i <- 1 Hasta 6 Hacer
+        Escribir numeros[i]
+    FinPara
+
+FinAlgoritmo
+```
+
+## Ejemplo del resultado
+
+```text
+Vector inicial:
+
+5, 1, 4, 2, 8, 3
+
+Vector ordenado:
+
+1, 2, 3, 4, 5, 8
+```
+
+## Resumen
+
+El **Cocktail Sort** es una variante del método de Burbuja que realiza recorridos en ambas direcciones. Primero mueve los elementos grandes hacia el final y después los elementos pequeños hacia el comienzo. Aunque puede mejorar el comportamiento de Bubble Sort en algunos casos, sigue teniendo una complejidad de `O(n²)` en el caso promedio y en el peor caso.
