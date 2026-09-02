@@ -58,3 +58,26 @@ Una vez que hayamos particionado el arreglo, podemos dividir este problema en do
 -   De manera similar, volveremos a trabajar en la sublista y ordenaremos los elementos `2`. `1`Detendremos el proceso cuando obtengamos un solo elemento al final.
 -   Repita el mismo proceso para la sublista del lado derecho. Los subconjuntos se subdividen hasta que cada subconjunto consta de un solo elemento **.**
 -   Ahora, el array está ordenado.
+## Características principales
+
+-  **Eficiencia:**  Su tiempo promedio es rápido y eficiente (\(O(n \log n)\)), aunque en el peor caso puede llegar a O(n²).
+
+-   **En el lugar:** No necesita crear grandes arreglos adicionales, ya que trabaja directamente sobre la misma lista.
+
+-   **Creador:** Fue diseñado por el científico británico Tony Hoare en 1959. 
+
+## Ventajas y desventajas 
+
+Vamos a repasar algunas de las principales ventajas de usar Quicksort:
+
+-   Funciona de forma rápida y eficaz.
+-   Presenta la mejor complejidad temporal en comparación con otros algoritmos de ordenación.
+-   QuickSort tiene una complejidad espacial de `O(log n)`, lo que lo convierte en una excelente opción para situaciones en las que el espacio es limitado.
+
+A pesar de ser el algoritmo más rápido, Quicksort tiene algunas desventajas. Veamos algunas de ellas.
+
+-   Esta técnica de ordenación se considera inestable, ya que no mantiene el orden inicial [de los pares clave-valor 
+
+-   No es tan eficaz cuando el elemento pivote es el más grande o el más pequeño, o cuando todos los componentes tienen el mismo tamaño. El rendimiento del algoritmo quicksort se ve significativamente afectado por estos escenarios desfavorables.
+
+-   Es difícil de implementar, ya que es un proceso recursivo, especialmente si no se dispone de recursión.
