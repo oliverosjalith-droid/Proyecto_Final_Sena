@@ -73,3 +73,35 @@ Algoritmo burbuja
 	Fin Para
 FinAlgoritmo
 ---
+# 2. Ordenamiento por Selección (Selection Sort)
+
+## ¿Qué es?
+
+El **método de selección** divide mentalmente el vector en una parte ordenada y otra que todavía no está ordenada.
+
+Busca el elemento más pequeño de la parte que no está ordenada y lo coloca en la primera posición disponible. Después repite el proceso hasta ordenar todos los elementos.
+
+## ¿Para qué sirve?
+
+Sirve para organizar los elementos de una lista o vector de menor a mayor.
+
+Por ejemplo:
+
+```text
+Antes:  64, 25, 12, 22, 11
+
+Después: 11, 12, 22, 25, 64
+```
+
+## Ventajas
+
+* Es fácil de comprender e implementar.
+* No necesita mucha memoria adicional.
+* Realiza pocas operaciones de intercambio en comparación con otros métodos.
+* Puede ser útil para conjuntos de datos pequeños.
+
+## Desventajas
+
+* Tiene una complejidad de `O(n²)` en el mejor, promedio y peor caso.
+* No es eficiente para grandes cantidades de datos.
+* No aprovecha demasiado el hecho de que los datos ya estén parcialmente ordenados.
