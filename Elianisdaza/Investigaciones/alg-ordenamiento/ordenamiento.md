@@ -42,3 +42,34 @@ Después: 1, 2, 3, 5, 8
 * Es lento cuando se trabaja con grandes cantidades de datos.
 * En el peor caso tiene una complejidad de `O(n²)`.
 * Realiza muchas comparaciones e intercambios.
+
+## Ejemplo:
+
+Algoritmo burbuja
+	
+	Definir n,a,b,c,x,aux, vector Como Entero
+	Escribir "Dime el número de datos para ordenar"
+    Leer n
+	Dimensión vector(n)
+	
+	Para b<-1 Hasta n Hacer     
+		Escribir "Dime el número ",b
+		Leer vector(b)
+	Fin Para
+	
+	Para x<-2 Hasta n Hacer
+		Para a<-1 Hasta n-1 Hacer
+			Si vector(a) > vector(a+1)
+				aux<-vector(a)
+				vector(a)<-vector(a+1)
+				vector(a+1)<-aux
+			Fin Si
+		Fin Para
+		
+	Fin Para
+	
+	Para c<-1 Hasta n Hacer
+		Escribir vector(c)
+	Fin Para
+FinAlgoritmo
+---
