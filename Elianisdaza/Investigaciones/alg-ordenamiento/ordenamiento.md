@@ -135,3 +135,73 @@ Proceso OrdenamientoSeleccion
         Escribir vector[i];
     FinPara
 FinProceso
+---
+# 3. Ordenamiento por Inserción (Insertion Sort)
+
+## ¿Qué es?
+
+El **método de inserción** ordena los elementos uno por uno.
+
+Comienza considerando que el primer elemento ya está ordenado. Después toma el siguiente elemento y lo coloca en la posición correcta dentro de la parte que ya está ordenada.
+
+Es parecido a la forma en que una persona puede organizar cartas en su mano.
+
+## ¿Para qué sirve?
+
+Sirve para ordenar listas o vectores y es especialmente útil cuando los datos son pocos o cuando ya están parcialmente ordenados.
+
+Ejemplo:
+
+```text
+Antes:  5, 3, 4, 1, 2
+
+Después: 1, 2, 3, 4, 5
+```
+
+## Ventajas
+
+* Es sencillo de implementar.
+* Utiliza poca memoria adicional.
+* Funciona muy bien con conjuntos de datos pequeños.
+* Es eficiente cuando los datos ya están casi ordenados.
+* Su mejor caso puede ser `O(n)` cuando los elementos ya están ordenados.
+
+## Desventajas
+
+* Para grandes cantidades de datos puede ser lento.
+* Su peor caso tiene una complejidad de `O(n²)`.
+* Puede necesitar muchos desplazamientos cuando los datos están en orden inverso.
+
+## Ejemplo 
+
+Algoritmo OrdenamientoPorInsercion
+
+    Definir i, j, actual Como Entero
+    Definir n Como Entero
+    n <- 5
+    Definir vec Como Entero
+    Dimension vec[5]
+    
+    Para i <- 0 Hasta n - 1 Hacer
+        Escribir "Ingrese el número para la posición ", i, ":"
+        Leer vec[i]
+    FinPara
+
+    Para i <- 1 Hasta n - 1 Hacer
+        actual <- vec[i]
+        j <- i - 1
+        
+        Mientras j >= 0 Y vec[j] > actual Hacer
+            vec[j + 1] <- vec[j]
+            j <- j - 1
+        FinMientras
+        
+        vec[j + 1] <- actual
+    FinPara
+    
+    Escribir "El vector ordenado es:"
+    Para i <- 0 Hasta n - 1 Hacer
+        Escribir vec[i]
+    FinPara
+FinAlgoritmo
+---
