@@ -105,3 +105,33 @@ Después: 11, 12, 22, 25, 64
 * Tiene una complejidad de `O(n²)` en el mejor, promedio y peor caso.
 * No es eficiente para grandes cantidades de datos.
 * No aprovecha demasiado el hecho de que los datos ya estén parcialmente ordenados.
+
+## Ejemplo 
+Proceso OrdenamientoSeleccion
+    Definir i, j, min, aux, n Como Entero;
+    n <- 5; 
+    Dimension vector[5];
+
+    Escribir "Ingrese 5 números:";
+    Para i <- 0 Hasta n-1 Hacer
+        Leer vector[i];
+    FinPara
+    
+    Para i <- 0 Hasta n-2 Hacer
+        min <- i;
+        Para j <- i+1 Hasta n-1 Hacer
+            Si vector[j] < vector[min] Entonces
+                min <- j;
+            FinSi
+        FinPara
+        
+        aux <- vector[i];
+        vector[i] <- vector[min];
+        vector[min] <- aux;
+    FinPara
+    
+    Escribir "Arreglo ordenado:";
+    Para i <- 0 Hasta n-1 Hacer
+        Escribir vector[i];
+    FinPara
+FinProceso
