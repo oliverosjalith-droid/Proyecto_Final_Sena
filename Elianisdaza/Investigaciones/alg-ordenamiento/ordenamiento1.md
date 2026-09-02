@@ -10,6 +10,7 @@ En este trabajo se presentan los siguientes métodos:
 * Quicksort
 * Merge Sort
 * Shell Sort
+* Cocktail Sort
 
 ---
 # 1. Ordenamiento Burbuja (Bubble Sort)
