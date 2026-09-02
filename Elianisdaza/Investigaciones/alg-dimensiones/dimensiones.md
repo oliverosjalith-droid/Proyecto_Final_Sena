@@ -55,3 +55,26 @@ Es un arreglo de 2 Dimensiones. Guarda tabla con filas y columnas.
 ![alt text](image-2.png)
 ![alt text](image-3.png)
 ![alt text](image-4.png)
+
+Algoritmo EjemploDimensionar
+
+    Definir i Como Entero;
+    Definir numeros Como Entero;
+    
+    // 1. Dimensionar el arreglo para 5 elementos
+    Dimension numeros[5]; 
+    
+    // 2. Asignar valores a cada posición (en PSeInt inician en 1 por defecto)
+    numeros[1] <- 10;
+    numeros[2] <- 20;
+    numeros[3] <- 30;
+    numeros[4] <- 40;
+    numeros[5] <- 50;
+    
+    // 3. Recorrer y acceder a los elementos usando un ciclo Para
+    Escribir "Los valores del arreglo son:";
+    Para i <- 1 Hasta 5 Con Paso 1 Hacer
+        Escribir "Posición ", i, ": ", numeros[i];
+    FinPara
+    
+FinAlgoritmo
