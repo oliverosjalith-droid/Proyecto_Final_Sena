@@ -516,4 +516,651 @@ Algoritmo sin_titulosad
 	escribir "la suma de numeros impares es : " sumimpa
 FinAlgoritmo
 
+## dice el numero mayor o menor que ingresaste
+
+
+Algoritmo _numero_par_e_impar
+	dimension num[10]
+	para i = 0 hasta 9 con paso 1 hacer 
+		leer num[i]
+	FinPara
+	may = 0
+	men = 99999999
+	para i = 0 hasta 9 con paso 1 hacer 
+		si(num[i] > may )
+			may = num[i]
+		FinSi
+		si (num[i] < men )
+			men = num[i]
+		FinSi
+ 	FinPara
+	Escribir "el numero mayor es: " may
+	escribir "el numero menor es: " men
+FinAlgoritmo
+
+
+## dibujo de un cuadrado
+
+
+Algoritmo cuadradodibujo
+	escribir "digite un numero"
+	leer TR1
+	para i = 1 Hasta TR1 Con Paso 1 hacer 
+		para j = 1 Hasta TR1 con paso 1 hacer 
+			escribir "  *  " sin saltar 
+		FinPara
+		escribir "     "
+	FinPara
+	
+FinAlgoritmo
+
+## 2
+
+Algoritmo tr13211
+	escribir "digite un numero"
+	leer TR1
+	para i = 1 Hasta TR1 Con Paso 1 hacer 
+		para j = 1 Hasta TR1 con paso 1 hacer 
+			escribir "  *  " sin saltar 
+		FinPara
+		escribir "     "
+	FinPara
+FinAlgoritmo
+
+
+## dibujo de un circulo 
+
+Algoritmo riangulo
+	escribir "digite un numero"
+	leer TR1
+	espacio = TR1 * 2 - 1 
+	x = 1
+	para i = 1 hasta TR1 con paso 1 hacer
+		para j = 1 hasta espacio / 2 con paso 1 hacer 
+			blanco = blanco + " "
+		FinPara
+		escribir blanco sin saltar 
+		para k = 1 hasta x con paso 1 hacer
+			escribir "*" sin saltar
+		FinPara
+		espacio = espacio - 2
+		x = x + 2
+		blanco = ""
+		escribir " "
+	FinPara
+FinAlgoritmo
+
+
+## numero creciente 
+
+
+Algoritmo sjhad
+	escribir "digite un numero"
+	leer n
+	para i = 1 hasta n  hacer
+		para j = 1 hasta i hacer 
+			escribir  sin saltar i
+		finpara 
+		escribir ""
+	FinPara
+FinAlgoritmo
+
+
+## contador de numeros positivos y negativos 
+
+
+
+Algoritmo numeronegapositivos
+	para i = 1 hasta 10 hacer
+	escribir "digita un numero"
+	leer num
+	si num > 0 Entonces
+		sumP = sumP +  num
+		contadorP = contadorP + 1
+	sino 
+		si num < 0 entonces 
+			sumN = sumN + num
+			contadorN = contadorN + 1
+		sino 
+			contadorC = contadorC + 1
+		FinSi
+	FinSi
+finpara 
+escribir "promedio de positivo: " sumP / contadorP
+escribir "promedio negativo: "  sumN / contadorN
+escribir "canditad de ceros: " contadorC
+FinAlgoritmo
+
+
+## dimension ejercicio 1
+
+Algoritmo dimensionaprendices
+	escribir "cuantos aprendices hay en el ambiente?"
+	leer num
+	dimension nombre[num];
+	
+	para i = 0 hasta num - 1 con paso 1 hacer 
+		escribir "digite nombre"
+		leer nombre[i]
+	FinPara
+	
+	para j = 0 hasta num - 1 con paso 1 Hacer
+		escribir "nombre[ " j " ] " nombre[j]
+	FinPara
+FinAlgoritmo
+
+## dimension con numero 
+
+
+Algoritmo dimensionnumero2
+	dimension num[10]
+	para i = 0 hasta 9  con paso 1 hacer 
+		escribir "digite un numero"
+		leer num[i]
+	FinPara
+	
+	para j = 9 hasta 0 con paso -1 hacer 
+		escribir "numero[ " j " ] " num[j] 
+	FinPara
+	
+FinAlgoritmo
+
+Algoritmo dimensionnumeros
+	dimension num[10]
+	para i = 0 hasta 9 hacer 
+		escribir "digite un numero"
+		leer num[i]
+	FinPara
+	
+	para j = 9 hasta 0 hacer
+		escribir "numero[ " j " ] " num[j] 
+	FinPara
+FinAlgoritmo
+
+
+
+## simension con ciclo para 
+
+
+Algoritmo dimensionconpara
+	dimension num[10]
+	para i = 0 hasta 9 hacer 
+		escribir "digite un numero"
+		leer num[i]
+	FinPara
+	comienzo=0
+	final=9
+	para j = 0 hasta 4 hacer
+		escribir "numero[ " j " ] " num[comienzo] 
+		escribir "numero[ " j " ] " num[final] 
+		comienzo = comienzo +1
+		final= final -1
+	FinPara
+FinAlgoritmo
+
+
+## numero perfecto o no perfecto
+
+
+Algoritmo numeroperfecto
+	escribir "digite un numero"
+	leer num
+		i = 1
+		mientras i < num hacer 
+			si (num mod i = 0) Entonces
+				d = d + i
+			FinSi
+			i = i + 1
+		FinMientras
+		si num = d Entonces
+			escribir 'el numero es perfecto'
+		sino 
+			escribir 'el numero no es perfecto '
+		finsi
+FinAlgoritmo
+
+
+
+## contador de digitos
+
+
+Algoritmo digitos
+	escribir "digite un numero"
+	leer num1
+	mientras num1 > 0 hacer 
+		num1 = trunc (num1 / 10)
+		cont = cont + 1
+	FinMientras
+	escribir 'tu numero tiene: ' cont ' digitos ' 
+FinAlgoritmo
+
+
+  ##  numeros primos
+
+
+  Algoritmo numeroprimos
+	escribir "digite un numero"
+	leer num
+	para j = 2 Hasta num hacer 
+	d = 0	
+	i = 1
+	mientras i <= j 
+		si (j mod i = 0) Entonces
+			d = d + 1 
+		FinSi
+		i = i + 1 
+	FinMientras
+	si d <= 2 Entonces
+		primo = primo + 1 
+		escribir j
+		finsi
+		finpara
+		escribir " hay " primo ' numeros primos'
+FinAlgoritmo
+
+
+
+## division con residuo 
+
+Algoritmo dividendosresta
+	definir num1, num2 como entero
+	escribir "ingreser un dividendo"
+	leer A
+	Escribir "ingresa un divisor"
+	leer B
+	residuo = A 
+	cociente = 0
+	mientras residuo >= B Hacer
+		residuo = residuo - B 
+		cociente = cociente + 1
+	FinMientras
+	escribir "el cociente es: " cociente
+	escribir "el residuo es: "  residuo
+FinAlgoritmo
+
+
+## multiplicacion con suma
+
+
+Algoritmo multiplicacionysuma
+	definir num1, num2 como entero
+	escribir "ingreser un numero"
+	leer num1
+	Escribir "ingresa otro numero"
+	leer num2
+	rp = 0
+	Para i = 1 hasta num2 hacer
+		rp = rp + num1
+	FinPara
+	escribir rp
+FinAlgoritmo
+
+
+## numero factorial
+
+Algoritmo numerofactorial
+	definir n1 como entero 
+	escribir "ingresa el numero para saber el factorial "
+	leer n1
+	factorial = 1
+	para i = 1 Hasta  n1 hacer 
+		factorial = factorial *  i 
+	FinPara
+	escribir "el factorial de: " n1 " es: "  factorial 
+	
+FinAlgoritmo
+
+
+## potencia factorial
+
+
+Algoritmo POTENCIAFACTORIAL
+	definir n1 como entero 
+	escribir "ingresa el numero base (X) "
+	leer n1
+	escribir "ingresa la potencia (N) "
+	leer n2
+	cuadrado = 1
+	para i = 1 Hasta  n2 con paso 1 hacer  
+		cuadrado = cuadrado * n1
+	FinPara
+	escribir "la portencia de: " n1 " es: "  cuadrado 
+	
+FinAlgoritmo
+
+
+
+## numero alatorio juego 
+
+
+Algoritmo numeroaleatoriohacer
+	contador = 0 
+	n1 = aleatorio(1,100)
+	Hacer
+	escribir "ingresa un numero para adivinar: "
+	leer num1
+	contador = contador + 1
+	si num1 <> n1 y num1 > n1 Entonces
+		escribir "el numero es menor que: " num1
+	SiNo
+		si num1 = n1 Entonces
+			escribir "diste con el numero aleatorio, es:  " n1
+		SiNo
+			escribir "el numero es mayor que: " num1
+		FinSi
+	FinSi
+Hasta Que num1 = n1
+si contador >= 1 y contador <= 5 Entonces
+	escribir "bien hecho numero de intentos: " contador 
+sino 
+	si contador >= 6 y contador <= 15 Entonces
+		escribir "puedes mejorar sigue intentando, numero de intentos: " contador 
+	sino 
+		si contador > 15 Entonces
+			escribir "no sirves para esto "
+		FinSi
+	FinSi
+FinSi
+FinAlgoritmo
+
+## decorado 
+
+
+
+Algoritmo sin_titulo
+	n1 = Aleatorio( 1,100)
+	contador = 0
+	Escribir "digita un numero" 
+	leer num1 
+	mientras num1 <> n1 Hacer
+		si num1 >= n1 Entonces
+			escribir "el numero aleatorio es menor que: " num1
+		sino 
+			escribir "el numero aleatorio es mayor que: " num1
+		FinSi
+		Escribir "digita un numero" 
+		leer num1
+		si num1 = n1 Entonces
+		escribir "=================================="	
+		escribir "diste con el numero aleatorio: " n1
+		escribir "=================================="
+		FinSi
+	FinMientras
+FinAlgoritmo
+
+
+## decorado 2
+
+
+Algoritmo aleatorionum
+	n1 = Aleatorio( 1,100)
+	contador = 0
+	Escribir "digita un numero" 
+	leer num1 
+	mientras num1 <> n1 Hacer
+		contador = contador + 1
+		si num1 >= n1 Entonces
+			escribir "el numero aleatorio es menor que: " num1
+		sino 
+			escribir "el numero aleatorio es mayor que: " num1
+		FinSi
+		Escribir "digita un numero" 
+		leer num1
+		si num1 = n1 Entonces
+			escribir "=================================="	
+			escribir "diste con el numero aleatorio: " n1
+			escribir "=================================="
+			si contador <= 10 Entonces
+				escribir " numero de intentos: " contador " bien echo"
+			sino 
+				si contador >= 11 y contador <= 15 Entonces
+					escribir " numero de intentos: " contador " puedes mejorar "
+				sino 
+					escribir " numero de intentos: " contador " no sirves para el juego"
+				FinSi
+				
+			FinSi
+		FinSi
+		
+	FinMientras
+FinAlgoritmo
+
+
+
+
+
+
+## cuadrado de un numero
+
+
+
+Algoritmo cuadradonumero
+	escribir "digite su numero"
+	leer num1
+	mientras num1 > 0 hacer 
+		escribir "el cuadrado de : " num1 " es: " num1 ^ 2
+		escribir "digite su numero"
+		leer num1
+		si num1 < 0 Entonces
+			escribir "es un numero negativo "
+		FinSi
+	FinMientras
+FinAlgoritmo
+
+
+## ciclo acaba hasta un numero negativo
+
+Algoritmo numeronegativo
+	escribir "ingresa un numero"
+	leer num1
+	contador = 0
+	mientras num1 > 0 Hacer
+		contador = contador + 1
+		escribir "ingresa un numero"
+		leer num1
+		si num1 < 0 Entonces
+			escribir "tu numero es negativo"
+		FinSi
+	FinMientras
+	escribir "la cantidad de numeros que ingresaste fueron: " contador + 1
+FinAlgoritmo
+
+## tipo de triangulo 
+
+
+Algoritmo triqangulo
+	escribir "ingrese el primer lado de su triangulo " 
+	leer L1
+	escribir " ingrese el segundo lado de su triangulo "
+	leer L2
+	escribir " ingrese el tercer lado de su triangulo "
+	leer L3
+	triangulo = falso 
+	
+	si (L1 >= L2) y (L1 >= L3) Entonces
+		si L1 < L2 + L3 Entonces
+			triangulo = Verdadero
+		FinSi
+	FinSi
+	
+	SI (L2 >= L1) Y (L2 >= L3) Entonces
+		SI L2 < L1 + L3 Entonces
+			triangulo = Verdadero
+		FinSi
+	FinSi
+	si (L1 + L2 > L3)  y  (L1 + L3 > L2) y (L2 + L3 > L1) Entonces
+		escribir " si es un triangulo " 
+			si L1 = L2 y L1 = L3 Entonces
+				escribir " el tipo de triangulo es equilatero "
+					sino 
+						si L1 = L2 o L1 = L3 o L2 = L3 Entonces
+							escribir " el tipo de triangulo es isoceles "
+								sino 
+							escribir " es un triangulo escaleno "  
+						FinSi
+					FinSi
+				sino 
+			escribir "los lados no forman un triangulo"
+		FinSi
+
+FinAlgoritmo
+
+
+## saber si es o no triangulo 
+
+Algoritmo triqangulo
+	escribir "ingrese el lado mayor de su triangulo " 
+	leer L1
+	escribir " ingrese el segundo lado de su triangulo "
+	leer L2
+	escribir " ingrese el tercer lado de su triangulo "
+	leer L3
+	si L1 < L2 + L3 Entonces
+		escribir " es un triangulo "
+		sino escribir "no es un triangulo " 
+	FinSi
+	
+
+	
+FinAlgoritmo
+ 
+## ordena numero de mayor a menor 
+
+
+Algoritmo OrdenarMayorAMenor
+		Definir num1, num2, num3 Como Real
+		
+		
+		Escribir "Ingrese el primer número:"
+		Leer num1
+		Escribir "Ingrese el segundo número:"
+		Leer num2
+		Escribir "Ingrese el tercer número:"
+		Leer num3
+		
+		Escribir "Los números ordenados de mayor a menor son:"
+		
+		
+		Si num1 >= num2 Y num1 >= num3 Entonces
+			Si num2 >= num3 Entonces
+				Escribir num1," "  num2," "  num3
+			Sino
+				Escribir num1,"  " num3,"  " num2
+			FinSi
+		Sino
+			Si num2 >= num1 Y num2 >= num3 Entonces
+				Si num1 >= num3 Entonces
+					Escribir num2,"  " num1,"  " num3
+				Sino
+					Escribir num2,"  " num3,"  " num1
+				FinSi
+			Sino
+				Si num1 >= num2 Entonces
+					Escribir num3," "  num1, " " num2
+				Sino
+					Escribir num3,"  " num2,"  " num1
+				FinSi
+			FinSi
+		FinSi
+		
+FinAlgoritmo
+
+
+
+## si un numero es mayor que otro
+
+
+
+Algoritmo mayoromenor
+	escribir " escribe un numero "
+	leer n1 
+	escribir "ingresa otro numero "
+	leer n2
+	si n1 > n2 Entonces
+		escribir n1 " es mayor que " n2
+	SiNo 
+		si n2 > n1 Entonces
+			escribir n2 " es mayor que " n1
+		sino 
+			si n1 = n2 Entonces
+				escribir "son iguales"
+			FinSi
+			
+		FinSi
+		
+	FinSi
+	
+FinAlgoritmo
+
+
+## si un numero es multiplo de otro
+
+
+Algoritmo multiplosassp
+	escribir "ingresa un numero para saber si es multiplo"
+	leer num1
+	escribir "ingresa el segundo numero"
+	leer num2
+	si num1 mod num2 = 0 o num2 mod num1 = 0
+		Escribir  "son multiplos"
+	sino 
+		Escribir  " no son multiplos "
+		
+	FinSi
+	
+	
+## 2 
+	
+FinAlgoritmo
+
+
+
+Algoritmo multiplos
+	escribir "ingresa el primer  numero para ver si son multipos"
+	leer num1
+	escribir "ingresa el segundo"
+	leer num2
+	si num1 es multiplo de num2 entonces 
+		escribir num1  " es multiplo de " num2 
+	sino escribir "no son multiplos"
+		
+	FinSi
+	
+FinAlgoritmo
+
+
+
+## numero positivo o negativo 
+
+
+Algoritmo positivonegativo
+	escribir "ingresa un numero"
+	leer num1
+	si num1 > 0 Entonces escribir  "tu numero es positivo"
+		sino escribir "tu numero es negativo" 
+		
+	FinSi
+	
+FinAlgoritmo    
+
+
+## numeros diferente o iguales
+
+
+Algoritmo igualdad
+	escribir "hola ingresa un numero para contarlo"
+	Leer  num1
+	escribir "ingresa otro numero para contar"
+	leer num2
+	si num1 = num2 entonces escribir "tus numeros son iguales: " 
+		sino escribir "tus numeros no son iguales"
+		
+	
+	FinSi
+	
+FinAlgoritmo
+
+
+
+## hasta aca todos los ejercicios que tenia guardados
 
