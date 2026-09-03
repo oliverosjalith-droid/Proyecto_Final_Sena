@@ -71,3 +71,22 @@ En este ejemplo, `a` y `b` deben ser números y la función devuelve un número.
 | **Sintaxis**          | Más sencilla y flexible                                 | Similar a JavaScript, pero agrega tipos               |
 | **Ejemplo**           | `let edad = 18;`                                        | `let edad: number = 18;`                              |
 | **Ventaja principal** | Flexibilidad y facilidad de uso                         | Mayor organización y detección temprana de errores    |
+---
+## Ventajas y desventajas
+
+|                 | JavaScript                                                         | TypeScript                                                         |
+| --------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| **Ventajas**    | Flexible, fácil de comenzar y funciona en los navegadores.         | Detecta errores de tipos y facilita organizar proyectos grandes.   |
+| **Desventajas** | Algunos errores pueden aparecer solamente al ejecutar el programa. | Requiere un proceso de compilación y aprender el sistema de tipos. |
+
+---
+
+## Relación entre JavaScript y TypeScript
+
+JavaScript y TypeScript están muy relacionados. **TypeScript incluye las características de JavaScript y agrega un sistema de tipos**, lo que ayuda a escribir código más organizado y detectar determinados errores antes de ejecutar el programa.
+
+---
+
+## Conclusión
+
+En conclusión, **JavaScript** es fundamental para crear aplicaciones web interactivas, mientras que **TypeScript** permite trabajar de una forma más organizada y detectar determinados errores antes de ejecutar el código. Ambos son importantes en el desarrollo web moderno.
