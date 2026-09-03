@@ -1,10 +1,10 @@
-# quicksort
+# Quicksort
 
 
 
 Quicksort es un algoritmo de ordenamiento eficiente basado en la técnica de "Divide y Vencerás" (Divide and Conquer). Fue desarrollado por el científico de la computación Tony Hoare en 1959 y sigue siendo uno de los algoritmos más utilizados en la actualidad para ordenar listas o arreglos de datos.
 
-## como funciona 
+## Como funciona 
 
 El algoritmo organiza los elementos eligiendo un elemento clave del arreglo llamado pivote y dividiendo los datos en torno a él:
 
@@ -19,7 +19,7 @@ El algoritmo organiza los elementos eligiendo un elemento clave del arreglo llam
 |caso Promedio|O (n log n) |Ocurre en la inmensa mayoría de las ejecuciones prácticas.|
 |peor caso|O (n^2)|Ocurre cuando el pivote elegido es siempre el elemento más pequeño o más grande (por ejemplo, al intentar ordenar una lista que ya está ordenada sin usar un pivote aleatorio).|
 
-## para que sirve?
+## Para que sirve?
 
 
 Sirve para ordenar grandes volúmenes de datos en memoria principal de forma extremadamente rápida. A diferencia de algoritmos simples como Burbuja (Bubble Sort) o Inserción (Insertion Sort) que tienen un rendimiento O (n^2) Quicksort es óptimo para uso masivo.
@@ -44,7 +44,7 @@ Antes de realizar búsquedas ultra rápidas O (\log n)  sobre millones de regist
 
 En renderizado de gráficos, se utiliza para ordenar polígonos o píxeles por profundidad (eje Z) desde la cámara antes de dibujarlos en pantalla (algoritmo del pintor).
 
-### sistemas de recomendación y priorización:
+### Sistemas de recomendación y priorización:
 
 Ordenar listas de productos por precio, publicaciones por fecha o puntajes de usuarios en tablas de clasificación en tiempo real.
 
