@@ -33,3 +33,15 @@ JavaScript sirve para:
 JavaScript es uno de los lenguajes más importantes del desarrollo web porque permite agregar interacción y comportamiento a las páginas. Junto con HTML y CSS, forma parte de las principales tecnologías utilizadas para crear sitios web.
 
 ---
+# Comparación entre JavaScript y TypeScript
+
+| Característica        | JavaScript                                              | TypeScript                                            |
+| --------------------- | ------------------------------------------------------- | ----------------------------------------------------- |
+| **Tipo de lenguaje**  | Lenguaje de programación                                | Lenguaje basado en JavaScript                         |
+| **Tipos de datos**    | Dinámicos                                               | Estáticos y dinámicos                                 |
+| **Ejecución**         | Se ejecuta directamente en navegadores y otros entornos | Primero se transforma a JavaScript                    |
+| **Errores**           | Algunos se detectan al ejecutar                         | Muchos errores de tipos se detectan antes de ejecutar |
+| **Uso principal**     | Páginas y aplicaciones web interactivas                 | Proyectos web grandes y organizados                   |
+| **Sintaxis**          | Más sencilla y flexible                                 | Similar a JavaScript, pero agrega tipos               |
+| **Ejemplo**           | `let edad = 18;`                                        | `let edad: number = 18;`                              |
+| **Ventaja principal** | Flexibilidad y facilidad de uso                         | Mayor organización y detección temprana de errores    |
