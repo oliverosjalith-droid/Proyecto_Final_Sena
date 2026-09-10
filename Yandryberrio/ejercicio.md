@@ -4,7 +4,7 @@ Un **ejercicio orientado a objetos** en programación es una práctica que te pi
 
 ## Ejemplos
 
-ejercicio_de_visual basic
+## 1.  ejercicio en visual basic
 
 Sub programa()
    A = InputBox("¿cuantos años tienes? ")
@@ -14,14 +14,14 @@ Sub programa()
 End Sub
 
 
-ejercicio_de_DartPad
+## 2. ejercicio_de_DartPad
 
 void main() {
   String a = "21" ; 
   print ( " YANDRY GOMEZ TIENE " +  a +  " años ");
 }
 
-ejercicio_de_java
+## 3. ejercicio_de_java
 
 public class Main {
     public static void main(String[] args) {
