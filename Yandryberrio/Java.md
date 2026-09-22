@@ -27,3 +27,26 @@ Java es una fuente inagotable de bibliotecas de machine learning. Su estabilidad
 ### 5. Internet de las cosas
 
 Java se ha utilizado para programar sensores y hardware en dispositivos de periferia que pueden conectarse de forma independiente a Internet.
+## ¿Cómo funciona Java?
+
+Todos los lenguajes de programación son un medio para comunicarse con las máquinas. El hardware de la máquina solo responde a la comunicación electrónica. Los lenguajes de programación de alto nivel como Java actúan como un puente entre el lenguaje humano y el lenguaje del hardware. Para usar Java, un desarrollador debe comprender dos cosas:
+
+### 1. Lenguaje Java y API
+
+Esta es la comunicación de frontend entre el desarrollador y la plataforma de Java.
+
+### ¿Qué es la API de Java?
+
+Java define la sintaxis y la semántica del lenguaje de programación Java. Esto incluye el vocabulario básico y las reglas utilizadas para escribir algoritmos, como tipos de datos inmutables, bloques if/else, bucles, etc.
+
+Las API son componentes de software importantes que se incluyen con la plataforma de Java. Estos son programas de Java preescritos que pueden conectar y reproducir la funcionalidad existente en su propio código. Por ejemplo, podría usar las API de Java para obtener la fecha y la hora, realizar operaciones matemáticas o manipular texto.
+
+Por lo general, cualquier código de aplicación de Java escrito por un desarrollador combinará código nuevo y preexistente de las API de Java y las bibliotecas de Java.
+
+### 2. Java Virtual Machine
+
+Esta es la comunicación de backend entre la plataforma de Java y el hardware subyacente. A continuación, veremos cada uno de estos aspectos con más detalle.
+
+### ¿Qué es Java Virtual Machine?
+
+Java Virtual Machine actúa como una capa de abstracción adicional entre la plataforma de Java y el hardware de la máquina subyacente. El código fuente de Java solo puede ejecutarse en aquellas máquinas en las que se haya instalado JVM. La respuesta a por qué se necesita Java Virtual Machine se encuentra en la historia de la programación.
