@@ -99,3 +99,15 @@ Este tipo de software se encuentra en productos como **microcontroladores**, **s
     
 -   **Código más largo y detallado**: Los programas escritos en **C++** tienden a ser **más largos** y **detallados** en comparación con lenguajes de alto nivel. Debido a la necesidad de gestionar manualmente ciertos aspectos del sistema, como la memoria y los recursos, el código puede volverse más extenso y difícil de leer. Además, la naturaleza multiparadigma de **C++** permite flexibilidad, pero también puede hacer que el código sea más complejo si no se siguen buenas prácticas de desarrollo.
 
+# Importancia 
+C++ es uno de los lenguajes de programación más importantes del mundo porque ofrece una velocidad extrema y un control total sobre el hardware y la memoria del sistema.
+
+### Razones de su importancia
+
+-   **Alto rendimiento:** Funciona muy rápido porque está muy cerca del hardware, lo que resulta clave cuando cada milisegundo cuenta.
+
+-   **Control de recursos:** Permite gestionar de manera directa la memoria y el procesador.
+
+-   **Programación orientada a objetos:** Permite usar clases y objetos para organizar y reutilizar códigos complejos.
+
+-   **Versatilidad:** Sirve tanto para programar sistemas de bajo nivel como aplicaciones de alto nivel. 
