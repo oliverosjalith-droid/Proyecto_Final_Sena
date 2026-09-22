@@ -19,6 +19,7 @@ Los estudiantes pueden utilizar la inteligencia artificial como herramienta de a
 * Generar ideas para proyectos e investigaciones.
 * Obtener explicaciones paso a paso sobre determinados problemas.
 
+## 3. Ventajas de utilizar IA para estudiar Entre sus principales ventajas se encuentran: * **Aprendizaje personalizado:** puede adaptar las explicaciones al nivel del estudiante. * **Disponibilidad:** permite consultar información y recibir ayuda en cualquier momento. * **Ahorro de tiempo:** facilita tareas como organizar, resumir y clasificar información. * **Práctica:** puede generar ejercicios adicionales para reforzar conocimientos. * **Accesibilidad:** puede explicar un mismo concepto de diferentes maneras
 
 
 
