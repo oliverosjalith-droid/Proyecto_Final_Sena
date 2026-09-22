@@ -136,3 +136,20 @@ C++ es uno de los lenguajes de programación más importantes del mundo porque o
 -   **Seguridad de la memoria**: Rust tiene un enfoque en la **seguridad de memoria** mediante su sistema de propiedad, evitando errores comunes como **fugas de memoria** y **segfaults** sin necesidad de un garbage collector. En C++, estos errores son posibles y requieren una gestión manual.
 -   **Curva de aprendizaje**: Aunque Rust ofrece mayores garantías de seguridad, su curva de aprendizaje puede ser empinada debido a sus reglas estrictas sobre la propiedad y el préstamo de variables. C++ también tiene una curva de aprendizaje pronunciada, especialmente en lo que respecta a la gestión de recursos.
 -   **Uso en la industria**: C++ tiene una trayectoria mucho más larga y es ampliamente utilizado en sectores como los videojuegos, sistemas operativos y software embebido. Rust está ganando popularidad rápidamente, especialmente en proyectos que requieren **seguridad** y **concurrencia**, pero aún está en vías de adopción masiva.
+## Futuro de C++ y por qué sigue siendo relevante
+
+### Actualizaciones del lenguaje
+
+El lenguaje **C++** ha experimentado múltiples actualizaciones importantes a lo largo de los años, manteniéndose actualizado con las necesidades de la industria moderna. Las versiones más recientes, como **C++11**, **C++14**, **C++17** y **C++20**, han introducido características que mejoran tanto la eficiencia como la experiencia del desarrollador. Entre estas mejoras se incluyen:
+
+-   **Expresiones lambda**: Que permiten escribir funciones anónimas de manera más concisa.
+-   **Smart pointers**: Para mejorar la gestión de memoria y reducir las fugas.
+-   **Mejoras en la concurrencia**: Nuevas herramientas para manejar múltiples hilos de manera segura y eficiente.
+
+Estas actualizaciones han hecho que **C++** siga siendo competitivo frente a otros lenguajes modernos.
+# Ejemplos
+1. 
+![Ejemplo en C++ de mecanismos de delimitación de bloques de código en el IDE ZinjaI. Separación de Líneas. Dentro de un programa C++ todas las sentencias que no se corresponden con la especificación de estructuras de control deben finalizar  ](https://www.researchgate.net/profile/Maria-Blas/publication/310604814/figure/fig1/AS:430869514067968@1479738706062/Figura-1-Ejemplo-en-C-de-mecanismos-de-delimitacion-de-bloques-de-codigo-en-el-IDE.png)
+
+2. 
+![Ciclo for c++ ejemplos y ejercicios resueltos - FACTORIAL Y PROMEDIOS](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGkFXK8YIdcgG1YG7UIoMsz6eTtOSF4tSRHv_HVkup8oJdShPYU6cCvrXR4fNRnvlmPfq6XppIGZTb15uoXuNi7kb_Ii2DAQVqlVxjdMqC1GO-utUzTYbq05viTPxJvNOHO0BJuZkKo9SQ/s640/Captura+de+pantalla+%2528253%2529.png) 
