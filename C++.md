@@ -111,3 +111,28 @@ C++ es uno de los lenguajes de programación más importantes del mundo porque o
 -   **Programación orientada a objetos:** Permite usar clases y objetos para organizar y reutilizar códigos complejos.
 
 -   **Versatilidad:** Sirve tanto para programar sistemas de bajo nivel como aplicaciones de alto nivel. 
+## Comparación de C++ con otros lenguajes
+
+### C++ vs Python
+
+**C++** y **Python** son lenguajes de programación muy diferentes en cuanto a su **nivel de abstracción** y **uso**. Mientras que **C++** es un lenguaje de bajo nivel que ofrece un control exhaustivo sobre los recursos del sistema, **Python** es un lenguaje de alto nivel, enfocado en la **simplicidad** y la **facilidad de uso**.
+
+-   **Velocidad**: C++ es considerablemente más rápido que Python debido a su naturaleza compilada y su capacidad de optimización del rendimiento. Python, al ser interpretado, tiene tiempos de ejecución más lentos.
+-   **Facilidad de uso**: Python es mucho más fácil de aprender y usar, especialmente para principiantes, gracias a su sintaxis clara y simple. C++, en cambio, requiere un mayor conocimiento técnico.
+-   **Aplicaciones**: C++ se utiliza principalmente en aplicaciones que demandan alto rendimiento, como videojuegos y software de sistemas, mientras que Python es más común en el desarrollo web, análisis de datos e inteligencia artificial.
+
+### C++ vs Java
+
+**Java** y **C++** comparten algunas características, como la **programación orientada a objetos**, pero también tienen importantes diferencias en la gestión de la memoria y la portabilidad.
+
+-   **Gestión de memoria**: Java utiliza un **garbage collector** para gestionar la memoria automáticamente, lo que simplifica el proceso de desarrollo pero puede causar pausas en la ejecución. En C++, los desarrolladores tienen control manual sobre la memoria, lo que permite optimizaciones pero aumenta el riesgo de errores como fugas de memoria.
+-   **Portabilidad**: Java es más **portátil** que **C++** gracias a su **máquina virtual Java (JVM)**, que permite ejecutar código Java en cualquier plataforma sin modificar el código fuente. En cambio, aunque C++ es portable, suele requerir algunas adaptaciones para diferentes plataformas.
+-   **Rendimiento**: C++ suele tener un **mejor rendimiento** que Java en aplicaciones críticas, debido al control que ofrece sobre el hardware y los recursos del sistema.
+
+### C++ vs Rust
+
+**Rust** es un lenguaje moderno que se compara frecuentemente con **C++** debido a su enfoque en el **control de memoria** y el **alto rendimiento**, pero Rust introduce mecanismos de seguridad que C++ no tiene de manera nativa.
+
+-   **Seguridad de la memoria**: Rust tiene un enfoque en la **seguridad de memoria** mediante su sistema de propiedad, evitando errores comunes como **fugas de memoria** y **segfaults** sin necesidad de un garbage collector. En C++, estos errores son posibles y requieren una gestión manual.
+-   **Curva de aprendizaje**: Aunque Rust ofrece mayores garantías de seguridad, su curva de aprendizaje puede ser empinada debido a sus reglas estrictas sobre la propiedad y el préstamo de variables. C++ también tiene una curva de aprendizaje pronunciada, especialmente en lo que respecta a la gestión de recursos.
+-   **Uso en la industria**: C++ tiene una trayectoria mucho más larga y es ampliamente utilizado en sectores como los videojuegos, sistemas operativos y software embebido. Rust está ganando popularidad rápidamente, especialmente en proyectos que requieren **seguridad** y **concurrencia**, pero aún está en vías de adopción masiva.
