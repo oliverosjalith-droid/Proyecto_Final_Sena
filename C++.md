@@ -44,3 +44,34 @@ Esto le permite adaptarse a las necesidades de distintos proyectos, ya sean pequ
 
 Una de las ventajas de **C++** es su **compatibilidad** con **C**, lo que facilita la integración de código escrito en C en proyectos más grandes de C++. Esto permite a los desarrolladores migrar y actualizar sistemas escritos en C sin necesidad de reescribir todo el código. 
 
+## ¿Cómo funciona C++?
+El funcionamiento de C++ se divide en varias etapas desde que escribes el código hasta que el procesador lo ejecuta:
+
+-   **Escritura del código:** Escribes instrucciones en archivos de texto plano con extensión `.cpp`.
+
+-   **El preprocesador:** Lee las líneas que empiezan con `#` (como `#include <iostream>`) para incorporar bibliotecas necesarias antes de compilar.
+
+-   **La compilación:** Un programa llamado **compilador** (como GCC o Clang) traduce todo tu código fuente a lenguaje de máquina o código binario.
+
+-   **La ejecución:** El sistema operativo abre el archivo ejecutable resultante (como `.exe`) y la unidad central de procesamiento (**CPU**) ejecuta las instrucciones empezando siempre por la función principal `main()`
+
+## Para qué sirve C++
+
+### Desarrollo de software de sistemas
+
+**C++** es ampliamente utilizado en el **desarrollo de software de sistemas** debido a su capacidad para gestionar directamente los recursos del hardware y su alto rendimiento.
+
+Es el lenguaje elegido para la creación de **sistemas operativos**, **controladores de hardware** y otros tipos de **software de bajo nivel** que requieren un control preciso sobre la memoria y el procesamiento. Un ejemplo destacado es el uso de C++ en partes del kernel de **Windows** y otros sistemas operativos.
+
+### Videojuegos y motores gráficos
+
+En la **industria de los videojuegos**, **C++** es uno de los lenguajes más populares, utilizado en el desarrollo de **motores gráficos** y **juegos** de alto rendimiento.
+
+Gracias a su eficiencia y capacidad para manejar **gráficos y físicas en tiempo real**, muchos motores de videojuegos líderes, como **Unreal Engine** y **Unity**, han sido desarrollados en **C++**. Su capacidad para aprovechar al máximo el hardware lo convierte en la opción preferida para juegos de alto rendimiento y simulaciones 3D.
+
+### Aplicaciones financieras y de telecomunicaciones
+
+**C++** también es utilizado en **aplicaciones financieras** y sistemas de **telecomunicaciones**, que requieren alta eficiencia y capacidad para manejar grandes volúmenes de datos en tiempo real.
+
+Por ejemplo, es común encontrar **C++** en plataformas de **trading de alta frecuencia** o sistemas de gestión de datos financieros, donde la velocidad y la precisión son cruciales.
+
