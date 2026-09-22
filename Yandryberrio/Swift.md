@@ -74,3 +74,62 @@ Swift y Objective-C son dos **lenguajes de programació** utilizados para desarr
 -   **Seguridad y estabilidad**: Swift ha sido diseñado con un **enfoque en la seguridad** y estabilidad del código. Introduce conceptos como la gestión automática de memoria (_Automatic Reference Counting – ARC_) y el manejo de opcionales (_Optionals_) para evitar errores comunes en el código.
 -   **Rendimiento:** Swift está optimizado para ofrecer un **alto rendimiento**. Al ser un lenguaje más moderno, utiliza técnicas de compilación avanzadas y ofrece características como tipos de datos seguros, lo que puede resultar un mejor rendimiento en comparación con Objetive-C.
 -   **Interoperabilidad**: Aunque Swift es un lenguaje independiente, es compatible con Objetive-C y se puede utilizar en conjunto en un mismo proyecto.
+## ¿Para qué sirve?
+
+El **código SWIFT** (también llamado BIC) sirve para **identificar de forma única a un banco** o institución financiera en el mundo durante una **transferencia internacional** de dinero.
+
+Funciona como una dirección postal o un código postal global para que el dinero enviado desde un país llegue de manera segura al banco correcto en el extranjero
+
+ ### ¿Para qué se puede utilizar el lenguaje Swift?
+
+Se puede utilizar para una variedad de propósitos en el desarrollo de aplicaciones y software en el ecosistema de Apple.
+
+-   **Desarrollo de aplicaciones para iOS y macOS**: Permite crear aplicaciones de alto rendimiento y calidad.
+-   **Desarrollo de aplicaciones para watchOS y tvOS**: Se utiliza para desarrollar aplicaciones para relojes inteligentes y dispositivos de televisión.
+-   **Desarrollo de aplicaciones para plataformas múltiples**: También puede utilizarse para desarrollar aplicaciones que funcionen en múltiples plataformas. Con _frameworks como SwiftUI y Combine._
+-   **Desarrollo de aplicaciones de servidor**: se puede utilizar para el desarrollo de aplicaciones de servidores con el _frameworks_ SwiftNIO y otros proyectos de código abierto.
+-   **Desarrollo de aplicaciones de realidad aumentada (AR) y realidad virtual (VR)**.
+
+## Importancia de Swift
+
+-   **Reemplazo de Objective-C:** Sustituyó al antiguo lenguaje de Apple con una estructura mucho más limpia y menos repetitiva.
+
+-   **Ecosistema Apple:** Es la base fundamental para crear aplicaciones en iOS, macOS, watchOS y tvOS.
+
+-   **Seguridad y rapidez:** Previene errores comunes de programación y ofrece un rendimiento de ejecución muy alto.
+
+-   **Código abierto:** Al ser _open source_, permite una comunidad activa y su expansión más allá de los dispositivos Apple.
+
+-   **Facilidad de lectura:** Su sintaxis es clara y muy parecida al inglés o a Python, lo que acelera el aprendizaje.
+## Ejemplos
+
+1. 
+![](https://www.cev.com/hubfs/Imported_Blog_Media/mL--esNge5pFiWguOLPna-kwCnYxCi6I8uJzFr-7h3ZDeLSb7udSaMAd08nGqWKtg680V3HijjoukuP3du9OMay3BvTdvns-7Affa1Xfkt3qmoTXO-RGuIaZGrxt2cI2-IA2WIfhRJ2fgstDIEioJ-2.png)
+
+#### En este ejemplo:
+
+-   import Swift importa el módulo Swift.
+-   func saludar() define una función llamada saludar() que imprime «¡Hola, mundo!» cuando se llama.
+-   saludar() llama a la función que acabamos de definir.
+
+La sintaxis de Swift es limpia y legible, lo que facilita la escritura y comprensión del código.
+
+2. 
+// Definir una estructura
+struct Persona {
+    var nombre: String
+    var edad: Int
+}
+
+let usuario = Persona(nombre: "Carlos", edad: 18)
+
+// Control de flujo básico
+if usuario.edad >= 18 {
+    print("\(usuario.nombre) es mayor de edad.")
+} else {
+    print("\(usuario.nombre) es menor de edad.")
+}
+
+## Conclusion
+
+Swift ha revolucionado el desarrollo de software en el ecosistema de Apple. Su rendimiento, legibilidad y características de seguridad lo convierten en una elección sólida para los desarrolladores que crean aplicaciones para dispositivos iOS, macOS, watchOS y tvOS. La comunidad activa de desarrolladores y el constante desarrollo del lenguaje aseguran que Swift seguirá siendo una herramienta importante en el mundo de la programación, impulsando la innovación y la eficiencia en el desarrollo de software.
