@@ -50,3 +50,35 @@ Esta es la comunicación de backend entre la plataforma de Java y el hardware su
 ### ¿Qué es Java Virtual Machine?
 
 Java Virtual Machine actúa como una capa de abstracción adicional entre la plataforma de Java y el hardware de la máquina subyacente. El código fuente de Java solo puede ejecutarse en aquellas máquinas en las que se haya instalado JVM. La respuesta a por qué se necesita Java Virtual Machine se encuentra en la historia de la programación.
+## Relevancia de Java en la programación
+
+A día de hoy, Java continúa ocupando una posicion relevante dentro del mundo de la programación. Muchos lenguajes le han ganado terreno, aun asi Java ha sido capaz de reinventarse como comentaremos más adelante, para seguir estando a la vanguardia y encontrar su lugar en este sector tan cambiante.
+
+Java es altamente portable, lo que significa que el código Java escrito una vez puede ejecutarse en una variedad de plataformas y sistemas operativos sin necesidad de modificaciones importantes. Esto es posible gracias a la JVM (Java Virtual Machine), que actúa como una capa de abstracción entre el código Java y el hardware subyacente. Esta es una de las principales ventajas de Java con respecto a otros lenguajes, como veremos en una sección posterior.
+
+Además, cuenta con una base de usuarios considerable y una comunidad de desarrolladores activa en todo el mundo. Esto garantiza que siempre haya recursos, bibliotecas y frameworks disponibles para ayudar en el desarrollo de aplicaciones.
+Java sigue siendo una opción líder para el desarrollo de aplicaciones empresariales escalables y robustas. Frameworks como Java EE (Enterprise Edition) ofrecen herramientas para crear aplicaciones empresariales que son esenciales en el entorno corporativo.
+
+Se ha convertido en el lenguaje principal utilizado en el desarrollo de aplicaciones para la plataforma Android, que es la plataforma móvil más utilizada en el mundo. Esto garantiza que Java siga siendo relevante en el ámbito de las aplicaciones móviles.
+
+## Características de Java
+
+Java es conocido por una serie de características clave que lo han convertido en el lenguaje de programación que es hoy en día:
+
+-   **Portabilidad**: Esto se logra mediante la utilización de la máquina virtual Java (JVM), que permite que el código Java sea ejecutado en diferentes sistemas operativos y plataformas sin necesidad de modificaciones.
+    
+-   **Orientación a objetos**: Java es un lenguaje de programación completamente orientado a objetos. Esto significa que todo en Java es un objeto, lo que facilita la creación de código modular y reutilizable.
+    
+-   **Seguridad**: Se diseñó desde el principio con un enfoque en la seguridad. La plataforma Java incluye características de seguridad como el control de acceso y la verificación de tipos para proteger las aplicaciones de amenazas de seguridad.
+    
+-   **Robustez y confianza**: Incluye verificación de límites de memoria durante la ejecución (garbage collection) y manejo de excepciones, lo que ayuda a prevenir errores graves y mejora la estabilidad de las aplicaciones.
+    
+-   **Amplio ecosistema**: Cuenta con una amplia gama de bibliotecas y frameworks que facilitan el desarrollo de una variedad de aplicaciones, desde aplicaciones web hasta aplicaciones empresariales y sistemas embebidos.
+    
+-   **Plataforma versátil**: Además de su uso en aplicaciones tradicionales, Java se ha adaptado a nuevos entornos, como Android, lo que lo convierte en el lenguaje principal para el desarrollo de aplicaciones móviles en millones de dispositivos.
+    
+-   I**nterpretación y compilación Just-In-Time (JIT)**: Java utiliza un enfoque híbrido en el que el código fuente se compila en bytecode que luego se interpreta y, en algunos casos, se compila justo a tiempo (JIT) para mejorar el rendimiento.
+    
+-   **Actualizaciones regulares**: Java sigue siendo un lenguaje en evolución constante, con lanzamientos regulares que introducen mejoras en rendimiento, seguridad y funcionalidad.
+    
+Estas características hacen de Java una herramienta poderosa y versátil para una amplia variedad de aplicaciones y proyectos de desarrollo de software en todo el mundo.
