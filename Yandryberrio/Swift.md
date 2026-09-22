@@ -50,3 +50,27 @@ Desde su lanzamiento, Swift ha tenido un impacto significativo en el mundo del d
 
 -   **Seguridad integrada:** Previene errores comunes de programación mediante el uso de "opcionales" (que manejan la ausencia de valores de forma controlada) y la gestión automática de la memoria.
 -   **Interoperabilidad:** Funciona hombro a hombro con el código antiguo en Objective-C y bibliotecas de C, permitiendo usar ambos lenguajes dentro del mismo proyecto. 
+### Principales ventajas
+
+El lenguaje de programación Swift presenta varias ventajas que lo convierten en una opción atractiva para el desarrollo de aplicaciones, sistemas y [servicios en la nube. Exploramos algunas de las principales ventajas de Swift.
+
+-   Alto rendimiento.
+-   Interoperabilidad con Objetive-C.
+-   Comunidad activa y amplia documentación.
+
+### Desventajas de Swift
+
+Aunque el lenguaje de programación Swift presenta numerosas ventajas, también tiene sus desafíos y limitaciones.
+
+-   Curva de aprendizaje.
+-   Cambios frecuentes en el lenguaje.
+-   Limitaciones de plataforma, especialmente fuera del ecosistema de Apple.
+
+## ¿Qué diferencia a Swift de Objective-C?
+
+Swift y Objective-C son dos **lenguajes de programació** utilizados para desarrollar aplicaciones en el entorno de desarrollo de Apple, pero diferentes en varios aspectos importantes.
+
+-   **Sintaxis:** La sintaxis de Swift es **más moderna y legible** en comparación con Objective-C y se asemeja más a otros lenguajes de programación, lo que facilita su aprendizaje y uso.
+-   **Seguridad y estabilidad**: Swift ha sido diseñado con un **enfoque en la seguridad** y estabilidad del código. Introduce conceptos como la gestión automática de memoria (_Automatic Reference Counting – ARC_) y el manejo de opcionales (_Optionals_) para evitar errores comunes en el código.
+-   **Rendimiento:** Swift está optimizado para ofrecer un **alto rendimiento**. Al ser un lenguaje más moderno, utiliza técnicas de compilación avanzadas y ofrece características como tipos de datos seguros, lo que puede resultar un mejor rendimiento en comparación con Objetive-C.
+-   **Interoperabilidad**: Aunque Swift es un lenguaje independiente, es compatible con Objetive-C y se puede utilizar en conjunto en un mismo proyecto.
