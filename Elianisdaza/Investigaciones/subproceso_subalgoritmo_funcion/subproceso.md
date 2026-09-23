@@ -262,3 +262,8 @@ En PSeInt se utiliza principalmente el término **SubProceso**, mientras que en 
 
 Comprender estos conceptos es importante para pasar de algoritmos y pseudocódigo a lenguajes de programación, ya que la mayoría de los lenguajes modernos utilizan alguna forma de dividir el código en bloques que realizan tareas específicas.
 
+---
+imagenes: 
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
