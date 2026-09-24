@@ -275,3 +275,368 @@ Es importante aclarar que **Shell** y **Bash** no son exactamente lo mismo.
 **Shell** es el concepto general de un intérprete de comandos, mientras que **Bash** es una implementación específica de shell.
 
 ---
+
+# 11. ¿Cómo funciona Bash?
+
+Bash puede funcionar principalmente de dos maneras:
+
+
+## Modo interactivo
+
+El usuario escribe un comando directamente en la terminal.
+
+Por ejemplo:
+
+```bash
+pwd
+```
+
+Bash recibe el comando, lo interpreta y solicita al sistema que lo ejecute.
+
+Otro ejemplo:
+
+```bash
+mkdir proyecto
+```
+
+Este comando crea una carpeta llamada `proyecto`.
+
+
+## Modo mediante script
+
+El usuario puede crear un archivo, por ejemplo:
+
+```text
+backup.sh
+```
+
+Dentro del archivo puede colocar varias instrucciones:
+
+```bash
+#!/bin/bash
+
+echo "Iniciando proceso..."
+
+mkdir -p respaldo
+
+echo "Proceso terminado."
+```
+
+Después, Bash puede ejecutar las instrucciones contenidas en el archivo.
+
+De forma simplificada:
+
+```text
+Script
+   ↓
+Bash
+   ↓
+Interpretación de comandos
+   ↓
+Sistema operativo
+   ↓
+Resultado
+```
+
+Bash también permite utilizar:
+
+* Variables.
+* Condiciones.
+* Ciclos.
+* Funciones.
+* Operadores.
+* Tuberías.
+* Redirecciones.
+* Comandos del sistema.
+
+---
+
+
+
+# 12. ¿Para qué sirve Bash/Shell Scripting?
+
+Bash es especialmente útil para la **automatización y administración de sistemas**.
+
+## Administración de archivos
+
+Permite crear, copiar, mover, eliminar y organizar archivos y carpetas.
+
+
+## Automatización
+
+Una tarea que normalmente requiere muchos comandos puede convertirse en un script y ejecutarse automáticamente.
+
+## Administración de servidores
+
+Los administradores de sistemas pueden utilizar scripts para realizar tareas repetitivas en servidores.
+
+## Copias de seguridad
+
+Un script puede automatizar la copia de determinados archivos hacia otra ubicación.
+
+## Administración de procesos
+
+Bash permite consultar y trabajar con procesos que se están ejecutando en el sistema.
+
+## DevOps
+
+Los scripts de shell se utilizan frecuentemente en procesos relacionados con:
+
+* Desarrollo.
+* Pruebas.
+* Despliegues.
+* Automatización.
+* Administración de infraestructura.
+
+## Instalación y configuración
+
+Un script puede ejecutar múltiples comandos necesarios para preparar un entorno de desarrollo o servidor.
+
+---
+
+# 13. Importancia de Bash/Shell Scripting
+
+Bash es importante porque permite automatizar tareas que, realizadas manualmente, podrían consumir mucho tiempo.
+
+Por ejemplo, imaginemos que un administrador necesita crear varias carpetas y realizar determinadas operaciones en cada una.
+
+Sin automatización tendría que ejecutar muchos comandos manualmente.
+
+Con Bash puede crear un script que realice todas esas operaciones automáticamente.
+
+Esto proporciona beneficios como:
+
+* Ahorro de tiempo.
+* Reducción de tareas repetitivas.
+* Automatización.
+* Mayor productividad.
+* Administración más sencilla de sistemas.
+* Repetibilidad de procesos.
+* Integración con otras herramientas.
+
+Bash también mantiene una presencia importante en el desarrollo de software y la administración de sistemas.
+
+---
+
+# 14. Ejemplo básico de Bash
+
+Un ejemplo sencillo consiste en crear automáticamente una estructura de carpetas:
+
+```bash
+#!/bin/bash
+
+echo "Creando proyecto..."
+
+mkdir -p proyecto
+mkdir -p proyecto/documentos
+mkdir -p proyecto/imagenes
+mkdir -p proyecto/backup
+
+echo "Estructura creada correctamente."
+```
+
+## ¿Qué hace?
+
+Primero muestra un mensaje:
+
+```bash
+echo "Creando proyecto..."
+```
+
+Después crea una carpeta llamada `proyecto`:
+
+```bash
+mkdir -p proyecto
+```
+
+Luego crea tres carpetas dentro de ella:
+
+```bash
+mkdir -p proyecto/documentos
+mkdir -p proyecto/imagenes
+mkdir -p proyecto/backup
+```
+
+Finalmente muestra un mensaje indicando que terminó:
+
+```bash
+echo "Estructura creada correctamente."
+```
+
+Este ejemplo demuestra cómo Bash puede convertir varias tareas manuales en un solo proceso automatizado.
+
+---
+
+# 15. Diferencias entre C# y Bash
+
+Aunque ambos permiten crear programas y automatizaciones, tienen objetivos diferentes.
+
+| Característica                   | C#                         | Bash                                                        |
+| -------------------------------- | -------------------------- | ----------------------------------------------------------- |
+| Tipo                             | Lenguaje de programación   | Shell e intérprete de comandos con capacidades de scripting |
+| Principal entorno                | .NET                       | Sistemas tipo Unix/Linux y otros entornos compatibles       |
+| Orientación                      | Desarrollo de aplicaciones | Automatización y administración                             |
+| Programación orientada a objetos | Sí                         | No es su enfoque principal                                  |
+| Aplicaciones gráficas            | Sí                         | No es su propósito principal                                |
+| Desarrollo web                   | Sí, mediante .NET          | No es su uso principal                                      |
+| Videojuegos                      | Sí                         | No es su propósito principal                                |
+| Automatización                   | Sí                         | Es uno de sus usos principales                              |
+| Administración del sistema       | Puede utilizarse           | Es uno de sus usos principales                              |
+| Uso mediante terminal            | Sí                         | Es fundamental                                              |
+
+En términos sencillos:
+
+> **C# está pensado principalmente para construir aplicaciones y sistemas.**
+
+> **Bash está pensado principalmente para interactuar con el sistema operativo y automatizar tareas mediante comandos y scripts.**
+
+---
+
+# 16. C# y Bash en el área de sistemas
+
+Estos dos recursos pueden ser especialmente útiles para una persona que estudia sistemas y desarrollo de software porque representan dos formas diferentes de trabajar con la tecnología.
+
+Con **C#**, un desarrollador puede construir:
+
+* Aplicaciones.
+* APIs.
+* Servicios.
+* Sistemas empresariales.
+* Videojuegos.
+
+Con **Bash**, un administrador o desarrollador puede:
+
+* Automatizar tareas.
+* Administrar archivos.
+* Ejecutar programas.
+* Configurar entornos.
+* Trabajar con servidores.
+* Automatizar procesos.
+
+Por ejemplo, en un proyecto de software podrían utilizarse ambos:
+
+```text
+C#   → Desarrollar la aplicación
+
+Bash → Automatizar tareas relacionadas con la aplicación
+```
+
+Esto demuestra que aprender diferentes lenguajes no significa que uno tenga que reemplazar al otro. Cada herramienta puede resolver problemas diferentes.
+
+---
+
+# 17. Comparación mediante ejemplos
+
+## C# para desarrollar una aplicación
+
+```csharp
+using System;
+
+class Programa
+{
+    static void Main()
+    {
+        Console.WriteLine("Sistema iniciado");
+    }
+}
+```
+
+El programa puede formar parte de una aplicación mucho más grande con clases, objetos, bases de datos, interfaces y diferentes funcionalidades.
+
+
+
+## C# para desarrollar una aplicación
+
+```csharp
+using System;
+
+class Programa
+{
+    static void Main()
+    {
+        Console.WriteLine("Sistema iniciado");
+    }
+}
+```
+
+El programa puede formar parte de una aplicación mucho más grande con clases, objetos, bases de datos, interfaces y diferentes funcionalidades.
+
+## Bash para automatizar una tarea
+
+```bash
+#!/bin/bash
+
+echo "Iniciando sistema..."
+
+mkdir -p respaldo
+
+echo "Carpeta de respaldo creada."
+```
+
+En este caso, Bash está realizando una secuencia de comandos para automatizar una tarea del sistema.
+
+---
+
+# 18. Importancia de conocer varios lenguajes
+
+Aprender más de un lenguaje permite comprender que no existe una herramienta única para solucionar todos los problemas.
+
+Cada lenguaje tiene características diferentes.
+
+Por ejemplo:
+
+| Lenguaje   | Algunos usos                                    |
+| ---------- | ----------------------------------------------- |
+| JavaScript | Desarrollo web                                  |
+| Python     | Inteligencia artificial, datos y automatización |
+| SQL        | Bases de datos                                  |
+| Java       | Sistemas empresariales y aplicaciones           |
+| C#         | Aplicaciones, videojuegos y servicios con .NET  |
+| C++        | Software de alto rendimiento                    |
+| Bash       | Automatización y administración de sistemas     |
+| TypeScript | Desarrollo web                                  |
+| PowerShell | Administración y automatización                 |
+| PHP        | Desarrollo web del lado del servidor            |
+
+Por esta razón, un desarrollador o profesional de sistemas puede utilizar diferentes lenguajes dependiendo de las necesidades del proyecto.
+
+---
+
+# 19. Conclusiones
+
+Los lenguajes de programación son fundamentales para el desarrollo de software y para la administración de sistemas informáticos. La gran variedad de lenguajes existentes permite solucionar diferentes tipos de problemas tecnológicos.
+
+La revisión de las tecnologías más utilizadas muestra que existen lenguajes orientados a diferentes áreas, como desarrollo web, bases de datos, inteligencia artificial, aplicaciones empresariales, videojuegos y administración de sistemas.
+
+C# destaca como un lenguaje moderno, orientado a objetos y multiplataforma que forma parte del ecosistema .NET. Permite desarrollar diferentes tipos de aplicaciones, desde programas de escritorio hasta servicios web, aplicaciones móviles y soluciones en la nube.
+
+Por otro lado, Bash es un shell y lenguaje de scripting especialmente importante para la interacción con sistemas tipo Unix y para la automatización de tareas. Su capacidad para combinar comandos, trabajar con archivos y ejecutar procesos lo convierte en una herramienta muy útil para desarrolladores y administradores de sistemas.
+
+Finalmente, C# y Bash cumplen funciones diferentes pero complementarias. Mientras C# permite construir aplicaciones y sistemas completos, Bash permite controlar y automatizar muchas tareas relacionadas con el sistema operativo.
+
+Por ello, conocer ambos proporciona una visión más amplia del desarrollo de software y de la administración de sistemas informáticos.
+
+---
+
+# 20. Referencias bibliográficas
+
+* Microsoft Learn. **A tour of the C# language**.
+  [https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/overview](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/overview)
+
+* Microsoft .NET. **C# – A modern, open-source programming language**.
+  [https://dotnet.microsoft.com/en-us/languages/csharp](https://dotnet.microsoft.com/en-us/languages/csharp)
+
+* GNU Project. **Bash Reference Manual**.
+  [https://www.gnu.org/software/bash/manual/](https://www.gnu.org/software/bash/manual/)
+
+* GNU Project. **What is a shell?**
+  [https://www.gnu.org/software/bash/manual/html_node/What-is-a-shell_003f.html](https://www.gnu.org/software/bash/manual/html_node/What-is-a-shell_003f.html)
+
+* Stack Overflow. **2025 Developer Survey – Technology**.
+  [https://survey.stackoverflow.co/2025/technology](https://survey.stackoverflow.co/2025/technology)
+
+* GitHub. **Octoverse 2025**.
+  [https://github.blog/news-insights/octoverse/](https://github.blog/news-insights/octoverse/)
+
+```
+```
