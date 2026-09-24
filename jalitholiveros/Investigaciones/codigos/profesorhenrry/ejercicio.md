@@ -14,3 +14,4 @@ numero5 = int(input())
 promedio = (numero1 + numero2 + numero3 + numero4 + numero5) / 5
 
 print(f"Su promedio es: {promedio}")
+s
