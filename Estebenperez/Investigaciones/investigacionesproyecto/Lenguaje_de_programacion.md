@@ -143,3 +143,135 @@ Mediante el ecosistema .NET se pueden crear:
 ## Desarrollo de videojuegos
 
 C# tiene una presencia importante en el desarrollo de videojuegos y es utilizado por diferentes motores y herramientas de desarrollo.
+
+
+
+## Aplicaciones móviles
+
+El ecosistema .NET permite desarrollar aplicaciones para diferentes plataformas móviles.
+
+## Servicios y sistemas en la nube
+
+C# también puede utilizarse para construir:
+
+* Servicios backend.
+* Aplicaciones distribuidas.
+* Microservicios.
+* Sistemas que funcionan en infraestructuras de nube.
+
+---
+
+
+# 7. Importancia de C#
+
+C# es importante porque combina una sintaxis relativamente accesible con herramientas profesionales y un ecosistema amplio.
+
+Algunas razones de su importancia son:
+
+### 1. Multiplataforma
+
+Las aplicaciones desarrolladas con .NET pueden ejecutarse en diferentes sistemas operativos dependiendo del tipo de aplicación.
+
+### 2. Uso empresarial
+
+C# y .NET son utilizados para desarrollar sistemas empresariales y servicios backend.
+
+
+
+### 3. Ecosistema amplio
+
+.NET dispone de bibliotecas, herramientas y frameworks que permiten crear diferentes tipos de aplicaciones.
+
+### 4. Seguridad de tipos
+
+El sistema de tipos ayuda a detectar determinados errores durante la compilación.
+
+### 5. Desarrollo de videojuegos
+
+C# es utilizado en diferentes herramientas y motores de videojuegos.
+
+
+### 6. Comunidad y documentación
+
+Cuenta con documentación oficial, herramientas de desarrollo y una comunidad amplia.
+
+---
+
+# 8. Ejemplo básico en C#
+
+Un ejemplo sencillo consiste en crear un programa que solicite dos números y calcule su suma:
+
+```csharp
+using System;
+
+class Programa
+{
+    static void Main()
+    {
+        Console.Write("Ingrese el primer número: ");
+        int numero1 = Convert.ToInt32(Console.ReadLine());
+
+        Console.Write("Ingrese el segundo número: ");
+        int numero2 = Convert.ToInt32(Console.ReadLine());
+
+        int resultado = numero1 + numero2;
+
+        Console.WriteLine("La suma es: " + resultado);
+    }
+}
+```
+
+## ¿Qué hace el programa?
+
+1. Solicita el primer número.
+2. Solicita el segundo número.
+3. Convierte los valores introducidos a números enteros.
+4. Realiza la suma.
+5. Muestra el resultado.
+
+Este ejemplo demuestra conceptos básicos como:
+
+* Variables.
+* Entrada de datos.
+* Conversión de tipos.
+* Operadores matemáticos.
+* Salida de información.
+
+---
+
+# 9. Bash / Shell Scripting
+
+
+## 9.1 ¿Qué es Bash?
+
+**Bash** significa **Bourne Again SHell** y es un intérprete de comandos y lenguaje de scripting utilizado principalmente en sistemas tipo Unix.
+
+Bash permite ejecutar comandos desde una terminal y también crear archivos que contienen una secuencia de instrucciones para automatizar tareas.
+
+Bash puede utilizarse para combinar diferentes comandos y crear procesos automatizados mediante scripts.
+
+---
+
+# 10. ¿Qué significa Shell Scripting?
+
+Un **Shell Script** es un archivo que contiene una serie de comandos que el sistema puede ejecutar.
+
+En lugar de escribir manualmente cada comando en la terminal, el usuario puede guardar las instrucciones en un archivo y ejecutarlas cuando sea necesario.
+
+Por ejemplo, un script puede realizar automáticamente tareas como:
+
+* Crear carpetas.
+* Copiar archivos.
+* Mover archivos.
+* Renombrar archivos.
+* Crear copias de seguridad.
+* Ejecutar programas.
+* Revisar información del sistema.
+* Administrar procesos.
+* Automatizar tareas repetitivas.
+
+Es importante aclarar que **Shell** y **Bash** no son exactamente lo mismo.
+
+**Shell** es el concepto general de un intérprete de comandos, mientras que **Bash** es una implementación específica de shell.
+
+---
