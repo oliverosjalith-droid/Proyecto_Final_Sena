@@ -24,6 +24,8 @@ nota5 = InputBox("Ingrese la nota 5:")
 
 promedio = (nota1 + nota2 + nota3 + nota4 + nota5) / 5
 
+MsgBox "El promedio de las 5 notas es: " & promedio
+
 ---
 
 # 2. Dart
