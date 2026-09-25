@@ -2,7 +2,7 @@
 
 * PROMEDIO DE 5 NOTAS 
 
-# 1. Visual basic
+## 1. Visual basic
 
      Dim nota1 As Double
      Dim nota2 As Double
@@ -28,7 +28,7 @@ MsgBox "El promedio de las 5 notas es: " & promedio
 
 ---
 
-# 2. Dart
+## 2. Dart
 
 import 'dart:io';
 
@@ -61,7 +61,7 @@ double nota4 = double.parse(entrada4!);
 
 ---
 
-# 3. Python
+## 3. Python
 
 nota1 = float(input('Ingresa la nota 1: '))
 nota2 = float(input('Ingresa la nota 2: '))
