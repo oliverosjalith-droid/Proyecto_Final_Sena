@@ -242,3 +242,147 @@ Las tecnologías modernas de .NET permiten desarrollar software para diferentes 
 ### 5. Herramientas de desarrollo
 
 C# cuenta con herramientas muy completas como **Visual Studio** y **Visual Studio Code**.
+
+### 6. Amplia comunidad
+
+Existe una gran comunidad de desarrolladores que crean tutoriales, bibliotecas, proyectos y soluciones para problemas comunes.
+
+### 7. Utilizado profesionalmente
+
+C# es utilizado en diferentes empresas para crear aplicaciones, servicios web, videojuegos y sistemas empresariales.
+
+---
+
+# 7. Desventajas de C#
+
+Aunque C# tiene muchas ventajas, también presenta algunos aspectos que pueden representar dificultades.
+
+### 1. Puede ser complejo para principiantes
+
+Aunque su sintaxis es relativamente sencilla, conceptos como clases, interfaces, herencia, excepciones y programación asíncrona pueden requerir tiempo para aprender.
+
+### 2. Dependencia del ecosistema .NET
+
+Una gran parte de sus herramientas y bibliotecas están relacionadas con .NET.
+
+### 3. Puede utilizar bastante código
+
+Para programas pequeños, algunas soluciones pueden requerir más estructura que en lenguajes diseñados específicamente para scripts sencillos.
+
+---
+
+# 8. Ejemplo básico en C#
+
+Un programa sencillo en C# puede ser:
+
+```csharp
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Hola mundo");
+    }
+}
+```
+
+Este programa muestra el mensaje **"Hola mundo"** en la consola.
+
+---
+
+# 9. Ejemplo utilizando variables
+
+C# permite almacenar información mediante variables:
+
+```csharp
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string nombre = "Carlos";
+        int edad = 18;
+
+        Console.WriteLine("Nombre: " + nombre);
+        Console.WriteLine("Edad: " + edad);
+    }
+}
+```
+
+En este ejemplo:
+
+* `string` almacena texto.
+* `int` almacena números enteros.
+* `Console.WriteLine()` muestra información en la pantalla.
+
+---
+
+# 10. Ejemplo utilizando una condición
+
+También se pueden utilizar estructuras condicionales:
+
+```csharp
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int edad = 18;
+
+        if (edad >= 18)
+        {
+            Console.WriteLine("Es mayor de edad");
+        }
+        else
+        {
+            Console.WriteLine("Es menor de edad");
+        }
+    }
+}
+```
+
+La estructura `if` permite ejecutar diferentes instrucciones dependiendo de si una condición se cumple o no.
+
+---
+
+# 11. Ejemplo de programación orientada a objetos
+
+Uno de los aspectos fundamentales de C# es la programación orientada a objetos.
+
+```csharp
+using System;
+
+class Persona
+{
+    public string nombre;
+    public int edad;
+
+    public void MostrarInformacion()
+    {
+        Console.WriteLine("Nombre: " + nombre);
+        Console.WriteLine("Edad: " + edad);
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Persona persona = new Persona();
+
+        persona.nombre = "Carlos";
+        persona.edad = 18;
+
+        persona.MostrarInformacion();
+    }
+}
+```
+
+En este ejemplo se crea una clase llamada `Persona`, que contiene información y un método para mostrarla.
+
+---
+
+
