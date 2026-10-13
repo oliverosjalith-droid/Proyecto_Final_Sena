@@ -90,3 +90,4 @@ int() convierte el dato ingresado en un número entero.
 print() muestra información en pantalla.
 
 ## imagenes
+
