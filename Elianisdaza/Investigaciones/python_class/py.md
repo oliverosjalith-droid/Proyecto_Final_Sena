@@ -42,12 +42,8 @@ La documentación oficial señala que Python puede utilizarse para una gran vari
 - Cuenta con una amplia comunidad de usuarios y desarrolladores.
 
 ## Imagenes
-![alt text](PHOTO-2026-10-06-11-45-38.jpg)
-![alt text](PHOTO-2026-10-06-09-46-03.jpg)
-![alt text](PHOTO-2026-10-06-10-56-33.jpg)
-![alt text](PHOTO-2026-10-06-11-08-16.jpg)
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/fc61797d-d1b7-4ead-8c3e-a74f95df35e0" />
 
----
 
 ## Ejemplo básico
 
@@ -89,5 +85,5 @@ int() convierte el dato ingresado en un número entero.
 
 print() muestra información en pantalla.
 
-## imagenes
+
 
