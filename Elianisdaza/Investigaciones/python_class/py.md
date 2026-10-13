@@ -43,6 +43,8 @@ La documentación oficial señala que Python puede utilizarse para una gran vari
 
 ## Imagenes
 <img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/fc61797d-d1b7-4ead-8c3e-a74f95df35e0" />
+<img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/57b17f66-40c1-4d16-9d18-f02008ca96c6" />
+
 
 
 ## Ejemplo básico
