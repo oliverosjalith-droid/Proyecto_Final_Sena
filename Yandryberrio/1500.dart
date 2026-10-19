@@ -1,12 +1,10 @@
-class Persona {}
+void main() {
+  List<Persona> personas = List.generate(1500, (_) => Persona());
 
-void main(){
-  for (int i  = 0; i < 1500; i++ ) {
-    Persona persona = Persona();
-    print(persona);
+  for (int i = 1; i <= 1500; i++) {
+    print("objeto $i");
   }
-
-
 }
 
+class Persona {}
 
